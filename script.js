@@ -76,8 +76,12 @@ function onResults(results) {
             let Yaw = (Math.atan2(-mat[8],mat[0]) / Math.PI * 180).toFixed(2);
             let Roll = (Math.asin(mat[4]) / Math.PI * 180).toFixed(2);
             let Pitch = (Math.atan2(-mat[6], mat[5]) / Math.PI * 180).toFixed(2);
-            let a = document.getElementById("info");
-            a.innerHTML = `Yaw: ${Yaw}, Pitch: ${Pitch}, Roll: ${Roll}`;
+            let yawA = document.getElementById("Yaw");
+            yawA.textContent = String(Yaw)
+            let rollA = document.getElementById("Roll");
+            rollA.textContent = String(Roll)
+            let pitchA = document.getElementById("Pitch");
+            pitchA.textContent = String(Pitch)
             }
         }
     canvasCtx.restore();

@@ -18,6 +18,33 @@ a:hover {
   color: lightblue;
 }
 
+.shoutout {
+  left:20px;
+  bottom: 40px;
+  position: absolute;
+  text-align: right;
+  font:  24px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: black;
+  width: 140px;
+  background-color: #596e73;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.head-orientation-p{
+  line-height: 5px;
+}
+
+
+
+.ho-label{
+  float: left;
+}
+
+
+
+
+
 body {
   bottom: 0;
   font-family: "Titillium Web", sans-serif;
@@ -122,11 +149,3 @@ body {
   opacity: 0;
 }
 
-.shoutout {
-  left: 0;
-  right: 0;
-  bottom: 40px;
-  text-align: center;
-  font-size: 24px;
-  position: absolute;
-}
